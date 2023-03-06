@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SORT</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="user">
+            <input id="input" type="number" class="input" placeholder="array length">
+            <button id="start" class="btn">Start</button>
+       </div>
+       <table border="1">
+        <caption class="title">Table sort</caption>
+        <tr class="row">
+            <th class="th">Sort</th>
+            <th class="th">Time, msec</th>
+            <th class="th">Cycles</th>
+        </tr>
+        <tr>
+            <td class="th ">Bubble Sort</td>
+            <td id="bubble-time" class="td"></td>
+            <td id="bubble-cycle"class="td" ></td>
+        </tr>
+        <tr>
+            <td class="th">Sort by choice</td>
+            <td id="choice-time" class="td"></td>
+            <td id="choice-cycle" class="td"></td>
+        </tr>
+        <tr>
+            <td class="th">Insertion Sort</td>
+            <td id="insertion-time" class="td"></td>
+            <td id="insertion-cycle" class="td"></td>
+        </tr>
+        <tr>
+            <td class="th">Quicksort</td>
+            <td id="quicksort-time" class="td"></td>
+            <td id="quicksort-cycle" class="td"></td>
+        </tr>
+        <tr>
+            <td class="th">Merge Sort</td>
+            <td id="merge-time" class="td"></td>
+            <td id="merge-cycle" class="td"></td>
+        </tr>
+       </table>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
